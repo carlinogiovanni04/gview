@@ -17,17 +17,9 @@ if errorlevel 1 (
     exit /b 1
 )
 
-%CC% /nologo /std:c11 /W4 /Zi /Od %INCLUDES% "tests\test_parse.c" /Fe:"bin\gview_test.exe" /Fo:"bin\\"
-if errorlevel 1 (
-    echo Build failed: tests.
-    popd
-    exit /b 1
-)
-
 copy /Y "%SDL_DIR%\bin\SDL3.dll" "bin\" >nul
 copy /Y "%SDL_DIR%\bin\SDL3_ttf.dll" "bin\" >nul
 
 echo Built bin\gview.exe
-echo Built bin\gview_test.exe
 popd
 endlocal

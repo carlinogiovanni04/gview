@@ -709,7 +709,7 @@ static void gv_draw_timeline(GViewApp *app, GCRECT view)
     gc_ui_panel(ui, view, C_BODY);
 
     if (!app->loaded) {
-        gc_text_centered(ui, "No trace loaded - press Ctrl+O to open one", view, C_DIM);
+        //gc_text_centered(ui, "No trace loaded - press Ctrl+O to open one", view, C_DIM);
         return;
     }
 
