@@ -1,5 +1,5 @@
 CC ?= clang
-CFLAGS = -std=c11 -g -Wall -Wextra -Werror
+CFLAGS = -std=c11 -Wno-format-truncation -g -Wall -Wextra -Werror
 INCLUDES = -Iinclude -I../gcui/include
 SDL_CFLAGS ?= -I../_libraries_/include
 SDL_LIBS ?= -lSDL3 -lSDL3_ttf
