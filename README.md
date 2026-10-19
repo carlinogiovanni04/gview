@@ -1,4 +1,5 @@
 # gview
+<img width="1869" height="912" alt="image" src="https://github.com/user-attachments/assets/3d284354-fd7c-4f4b-a56f-9d2483a7a9e5" />
 
 Trace viewer for [microprof](https://github.com/carlinogiovanni04/microprof) Chrome Trace JSON, built on
 [gcui](https://github.com/carlinogiovanni04/gcui).
