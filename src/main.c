@@ -1212,7 +1212,7 @@ static void gv_draw_toolbar(GViewApp *app, GCRECT panel)
     }
     x += 130.0f;
 
-    gc_ui_label(ui, (GCRECT){fx - 54.0f, y, 50.0f, h}, "Filter", C_DIM);
+    gc_ui_label(ui, (GCRECT){fx - 54.0f, y + 10.0f, 50.0f, h}, "Filter", C_DIM);
     gc_ui_textbox(ui, (GCRECT){fx, y, fw, h}, &app->filter, &app->filter_cap, app->arena);
 }
 
