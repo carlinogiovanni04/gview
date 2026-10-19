@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    - "-std=c11"
+    - "-IC:/Users/Carli/code/gview/include"
+    - "-IC:/Users/Carli/code/gcui/include"
+    - "-IC:/Users/Carli/code/_libraries_/include"
